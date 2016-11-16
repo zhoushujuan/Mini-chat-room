@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin:0;
+}
+ul,li{
+    list-style: none;
+}
+.box{
+    width:600px;
+    padding:10px 30px;
+    margin:0 auto;
+}
+p{
+    height:50px;
+    line-height:50px;
+    padding-left:20px;
+    background: gray;
+}
+ul{
+    width:600px;
+    min-height:400px;
+    max-height: 500px;
+    overflow: scroll;
+    background: lightblue;
+}
+li{
+    height:30px;
+    line-height:30px;
+    padding: 0px 20px;
+}
+li a{
+    float: right;
+}
+body{
+    background: lightgray;
+}
+[type="text"]{
+    width:400px;
+    height:30px;
+    border:1px solid lightblue;
+}
+[type="button"]{
+    margin-left:50px;
+    width:80px;
+    height:30px;
+    background: gray;
+    color: lightgreen;
+    border:none;
+}
